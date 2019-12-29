@@ -3,7 +3,40 @@ body {
     background-color: black;
     color: blanchedalmond;
 }
+div.dropdown{
+    margin-top: 7%;
+    margin-bottom: 6%;
+    margin-left: 4%;
+    opacity: 90%;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #C9FFE5;
+    opacity: 90%;
+    background-clip: padding-box;
+    background-color: #E6FFFF;
+    border: 1px solid ;
+    border-radius: .25rem;
+}
 
+.btn-secondary {
+    color: black;
+    background-color: #C9FFE5;
+    border-color:none!important;
+    opacity: 80%;
+}
 nav {
     overflow: hidden;
 }
@@ -16,6 +49,7 @@ nav ul li {
     width: 63%;
     height: 38px;
     margin-bottom: 0%;
+    
 }
 
 /* nav ul li:first-child {

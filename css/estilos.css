@@ -48,10 +48,11 @@ div.music {
 
 div.resonance {
     margin: 1%;
+    opacity: 90%;
 }
 
 #mixcloud {
-    margin-left: 3.3%;
+    margin-left: 2.3%;
     margin-top: 4%;
 }
 
@@ -73,8 +74,9 @@ img.logo{
 
   .footer {
     font-size: 15px;
-    color: aliceblue;
+    color: blanchedalmond;
     margin-top: 0.2%;
-    margin-left: 75%;
+    margin-left: 40%;
+    margin-bottom: 3%;
 
   }

@@ -1,160 +1,80 @@
+body {
+    background: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1765480/910/910/m2/fpnw/wm1/s1xhxwhcktad1lidcdzlafc1cpkoqg4mndsm0qyw1ikhebjogs0vo752zpj6g4cs-.jpg?1476594172&s=d6acc6c1b1c9a2ee6c1b807367e07eda");
+    background-color: black;
+    color: blanchedalmond;
+}
+
 nav {
-  display:flex;
+    overflow: hidden;
 }
 
-body{
-  background-color: black;
-  
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    box-shadow: 2px 2px 7px 1px rgba(28,110,164,0.24);
+    width: 63%;
+    height: 38px;
+    margin-bottom: 0%;
 }
 
-header nav.navbar {
-  background-color: black;
+/* nav ul li:first-child {
+    margin-top: 2%;
+} */
+
+nav ul li:first-child {
+    margin-top: 6%!important;
+    margin-left: 0%;
 }
 
-a.camilo {
-  /* padding-left: 20%; */
-  color: aliceblue;
+nav ul li:first-child a{
+    
+    margin-left: 3%;
+    padding-top: 2%!important;
+}
 
+a.nav-link {
+    text-align: center;
+}
+
+div.about {
+    margin: 2%;
+    margin-left: 4%;
 }
 
 div.music {
- margin-left: 2%;
- margin-right: 2%;
+    margin: 1%;
 }
 
-article {
-  margin-top: 25px;
+div.resonance {
+    margin: 1%;
 }
 
-a.navbar-brand{
-
+#mixcloud {
+    margin-left: 3.3%;
+    margin-top: 4%;
 }
 
-.about {
-  margin-top: 25px;
-}
-
-.form {
-  margin-top: 9%;
-}
-.discos {
-  margin-top: 4%;
-}
-
-.navbar-expand-lg .navbar-collapse {
-  border-radius: 9px;
-  /* margin-right: 30%; */
-
-}
-
-ul li.nav-item a.nav-link {
-  color: aliceblue;
-}
-
-div ul.navbar-nav {
-  /* margin-right: 70%; */
-}
-
-#videos{
-  margin-left: 6%;
-  margin-top: 5%;
-}
-
-/* nav.bg-light {
-  background-color: black;
-} */
-
-nav div ul{
-  margin: 0;
-  
-}
-
-li a img{
-  margin: 60%;
-  border-radius: 350px;
-}
-
-footer {
-  margin: 60px;
-}
-
-.about {
-  color: aliceblue;
-}
-.descri {
-  text-align: center;
-}
-
-.footer {
-  font-size: 15px;
-  color: aliceblue;
-  margin-top: 0.2%;
-  margin-left: 75%;
-}
-
-/* img.perfil{
-  /* margin-top: 45px; */
-  border-radius: 450px;
-} */
-
-
-a.tituloLink{
-  font-size: 20px;
-  padding-bottom: 6px;
-  padding-left: 6px;
-  padding-right: 6px;
-  /* margin: 10px; */
-  background-color: aliceblue;
-  
-}
-
-a.tituloLink img{
-  width: 90px;
-}
-
-.mixcloud{
-  margin-top: 20px;
-  
-}
-
-.perfil2{
-  margin-top: 1%;
-  margin-bottom: 1%;
-  width: 5%;
-  border-radius: 350px;
-} 
-
-#discografia {
-  margin: 10%;
-}
 
 img.logo{
-  width: 20px;
-  margin-top: 19%;
-}
+    width: 20px;
+    margin-top: 19%;
+  }
 
-.resonance {
- margin-top: 5px;
-} 
+  img.logoMixcloud{
+    width: 20px;
+    margin: 0;
+  }
 
-.resonance:first-child {
-  margin-top: 20px;
-}
+  img.logoFacebook{
+    width: 15px;
+    margin-top: 19%;
+  }
 
-img.logoFacebook{
-  width: 15px;
-  margin-top: 19%;
-}
+  .footer {
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 0.2%;
+    margin-left: 75%;
 
-.audio{
-  color: aliceblue;
-}
-
-img.logoMixcloud{
-  width: 20px;
-  margin: 0;
-}
-
-.h5{
-  color: aliceblue;
-}
+  }

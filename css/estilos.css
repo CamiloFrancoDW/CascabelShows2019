@@ -1,0 +1,82 @@
+body {
+    background: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/1765480/910/910/m2/fpnw/wm1/s1xhxwhcktad1lidcdzlafc1cpkoqg4mndsm0qyw1ikhebjogs0vo752zpj6g4cs-.jpg?1476594172&s=d6acc6c1b1c9a2ee6c1b807367e07eda");
+    background-color: black;
+    color: blanchedalmond;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    box-shadow: 2px 2px 7px 1px rgba(28,110,164,0.24);
+    width: 63%;
+    height: 38px;
+    margin-bottom: 0%;
+}
+
+/* nav ul li:first-child {
+    margin-top: 2%;
+} */
+
+nav ul li:first-child {
+    margin-top: 6%!important;
+    margin-left: 0%;
+}
+
+nav ul li:first-child a{
+    
+    margin-left: 3%;
+    padding-top: 2%!important;
+}
+
+a.nav-link {
+    text-align: center;
+}
+
+div.about {
+    margin: 2%;
+    margin-left: 4%;
+}
+
+div.music {
+    margin: 1%;
+}
+
+div.resonance {
+    margin: 1%;
+    opacity: 90%;
+}
+
+#mixcloud {
+    margin-left: 2.3%;
+    margin-top: 4%;
+}
+
+
+img.logo{
+    width: 20px;
+    margin-top: 19%;
+  }
+
+  img.logoMixcloud{
+    width: 20px;
+    margin: 0;
+  }
+
+  img.logoFacebook{
+    width: 15px;
+    margin-top: 19%;
+  }
+
+  .footer {
+    font-size: 15px;
+    color: blanchedalmond;
+    margin-top: 0.2%;
+    margin-left: 40%;
+    margin-bottom: 3%;
+
+  }
